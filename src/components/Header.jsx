@@ -3,8 +3,8 @@ import NavBar from "./NavBar"
 
 const Header = () => {
   return (
-    <header className='w-full h-[800px] bg-fuchsia-400'>
-      <div className='container'>
+    <header className='bg-fuchsia-400'>
+      <div className='max-w-[1280px] w-full h-[800px] mx-auto'>
         <NavBar />
         <div className='flex flex-col items-center max-w-[540px] text-center mx-auto mt-36'>
           <h1 className='text-8xl text-white'>Your future is electric</h1>
