@@ -49,3 +49,16 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.button {
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+  padding: 12px 56px 12px 56px;
+  background-color: rgb(99 102 241 / var(--tw-bg-opacity));
+  border-radius: 9999px;
+}
+
+.button:hover {
+  background-color: rgb(129 140 248 / var(--tw-bg-opacity));
+}
