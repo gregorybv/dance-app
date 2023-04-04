@@ -10,7 +10,7 @@ const NavBar = () => {
   }
 
   return (
-    <nav className='flex justify-between items-center pt-4'>
+    <nav className='flex justify-between items-center pt-4 px-4'>
       <img src={logo} alt='logo dance' />
       <ul className='hidden sm:flex gap-9'>
         <li className='text-lg text-white'>
@@ -23,7 +23,7 @@ const NavBar = () => {
           <a href='#'>For Business</a>
         </li>
       </ul>
-      <button className='text-lg text-white py-3 px-14 bg-indigo-500 rounded-full hidden sm:flex'>
+      <button className='button hidden sm:flex '>
         Start now
       </button>
       <div onClick={handleNav} className='sm:hidden z-10'>
