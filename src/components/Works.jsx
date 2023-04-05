@@ -2,6 +2,7 @@ import React from "react"
 import works from "../assets/works.png"
 
 const Works = () => {
+  
   return (
     <section className='max-w-[1280px] w-full mx-auto flex justify-between pl-32 mt-16 mb-[73px]'>
       <div className=''>
