@@ -48,19 +48,20 @@ const Charge = () => {
           </li>
         </ul>
       </div>
-
-      {data.map((el, index) => (
-        <div
-          key={index}
-          className='flex flex-col items-center gap-[16px] bg-gray-200 p-2 rounded-3xl'
-        >
-          <img src={el.image} alt='bike1' />
-          <p>{el.price}</p>
-          <h3 className='text-2xl'>{el.title}</h3>
-          <p className='text-xl'>{el.model}</p>
-          <button className='button bg-blue-500'>{el.button}</button>
-        </div>
-      ))}
+      <div className="flex gap-4">
+        {data.map((el, index) => (
+          <div
+            key={index}
+            className='flex flex-col items-center gap-[16px] bg-gray-200 p-2 rounded-3xl'
+          >
+            <img src={el.image} alt='bike1' />
+            <p>{el.price}</p>
+            <h3 className='text-2xl'>{el.title}</h3>
+            <p className='text-xl'>{el.model}</p>
+            <button className='button bg-blue-500'>{el.button}</button>
+          </div>
+        ))}
+      </div>
     </section>
   )
 }
