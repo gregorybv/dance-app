@@ -5,7 +5,7 @@ const Works = () => {
   
   return (
     <section className='max-w-[1280px] w-full mx-auto flex justify-between pl-32 mt-16 mb-[73px]'>
-      <div className=''>
+      <div>
         <h2 className='text-6xl'>How it works</h2>
         <ul className='mt-[71px]'>
           <li className='text-2xl'>1. Pick your city</li>
