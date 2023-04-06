@@ -49,8 +49,11 @@ const Charge = () => {
         </ul>
       </div>
 
-      {data.map((el) => (
-        <div className='flex flex-col items-center gap-[16px] bg-gray-200 p-2 rounded-3xl'>
+      {data.map((el, index) => (
+        <div
+          key={index}
+          className='flex flex-col items-center gap-[16px] bg-gray-200 p-2 rounded-3xl'
+        >
           <img src={el.image} alt='bike1' />
           <p>{el.price}</p>
           <h3 className='text-2xl'>{el.title}</h3>
